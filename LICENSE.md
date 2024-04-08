@@ -5,7 +5,7 @@
 ---
 
 **Permissions**:
-- ✅ Only source code is licensed under **Apache-2.0 License**; use, modify, and share according to its terms.
+- ✅ Only source code is licensed under **`Apache-2.0 License`** 🠪 use, modify, and share according to its terms.
 
 **Limitations**:
 - ❌ No commercial use of documentation, non-code elements, or documentation footer images.
