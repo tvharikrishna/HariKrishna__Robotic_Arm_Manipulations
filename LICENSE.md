@@ -5,7 +5,7 @@
 ---
 
 **Permissions**:
-- ✅ Only source code is licensed under **GNU GPL v3.0**; use, modify, and share according to its terms.
+- ✅ Only source code is licensed under **Apache License 2.0**; use, modify, and share according to its terms.
 
 **Limitations**:
 - ❌ No commercial use of documentation, non-code elements, or documentation footer images.
