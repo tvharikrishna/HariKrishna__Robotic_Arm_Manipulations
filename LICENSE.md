@@ -26,7 +26,7 @@
   <tr>
     <td>✅</td>
     <td><strong>Code</strong></td>
-    <td>GNU-GPL v3.0</td>
+    <td>Apache-2.0 License</td>
     <td>Use, modify, and share as per its terms.</td>
   </tr>
   <tr>
