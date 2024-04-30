@@ -23,7 +23,7 @@
   <a href="https://www.linkedin.com/feed/update/urn:li:activity:7130040549587243008?utm_source=share&utm_medium=member_desktop">
     <img src="https://img.shields.io/badge/My Project Video-Robot Block Manipulation-blue" alt="Video" width="337" height="30"/>
   </a>
-</p> <br> <br>
+</p> <hr> <br> <br>
 
 <!------ WHY ------>
 <p align="center">
@@ -45,7 +45,7 @@ The project is dedicated to revolutionizing block manipulation tasks through the
 </p>
 <p style="text-align: justify;">
 ▸ <code>Dynamic Adaptation:</code> The robot's ability to adjust dynamically to various payload configurations and optimize spatial arrangements for block placement demonstrates advanced adaptability in automated tasks.
-</p> <br> <br>
+</p> <hr> <br> <br>
 
 <!------ HOW ------>
 <p align="center">
@@ -95,7 +95,7 @@ As we all know, robots can pose a hazard if we enter their operational zone. To 
 <p align="center"><h2>Green: Safe</h2></p>
 <p align="center">
   <img src="readme_data/project_observation_2.png" alt="Project Observation 2" width="1111"/>
-</p> <hr>
+</p> <hr> <br> <br>
 
 <!------ End Image ------>
 <p align="center">
