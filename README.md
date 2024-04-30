@@ -17,11 +17,11 @@
 </thead>
 <tbody>
 <tr>
-<td align="center"><strong>HK_Isaac__</strong></td>
+<td align="center"><strong>HKIsaac__</strong></td>
 <td align="center">Simulations in Nvidia Isaac</td>
 </tr>    
 <tr>
-<td align="center"><strong>HK_BOT__</strong></td>
+<td align="center"><strong>HKBOT__</strong></td>
 <td align="center">Projects on HKBOT (Custom Made Mobile Robot)</td>
 </tr>
 </tbody>
