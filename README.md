@@ -1,9 +1,12 @@
-<p align="right">© Documentation by tvharikrishna</p>
-<p align="right">1 minute read 📚</p> <br>
-
 <p align="center">
     <img src="readme_data/ram_welcome.png" alt="ram_welcome" width="1500"/>
 </p> <br>
+
+<p align="center">
+  <a href="https://www.youtube.com/playlist?list=PL0phN1wjvpsbWNGSvlOfjZhpoI0R1N-cF">
+    <img src="https://img.shields.io/badge/Full Projects Playlist-%23FF0000.svg?style=flat-square&logo=youtube&logoColor=white" alt="Full YouTube Playlist" width="220" height="30"/>
+  </a>
+</p> <br> <br>
 
 # 🔻 Repository Details
 <p align='justify'>This repository is dedicated to exploring and developing algorithms for robotic hand manipulations, including detection and grabbing algorithms, grasp estimation, and methodologies for handling objects in the real world using robotic hands. It aims to advance the capabilities of robots in performing tasks that require fine motor skills and adaptive responses.</p>
