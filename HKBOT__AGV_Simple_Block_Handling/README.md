@@ -73,7 +73,7 @@ As we all know, robots can pose a hazard if we enter their operational zone. To 
   <img src="readme_data/project_observation_2.png" alt="Project Observation 2" width="1111"/>
 </p> <hr> <br> <br>
 
-<!------ End Image ------>
+<!----- End Image ----->
 <p align="center">
     <img src="readme_data/HKbot_endquote.png" alt="Alt text for your image" width="1500"/>
 </p>
