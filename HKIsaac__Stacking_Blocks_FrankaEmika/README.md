@@ -14,7 +14,7 @@ This project showcases the integration and control of the Franka Emika robot wit
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7130040549587243008?utm_source=share&utm_medium=member_desktop">
+  <a href="https://youtu.be/vDkAANr7kvA">
     <img src="https://img.shields.io/badge/My Project Video-Stacking Blocks w/ Franka Robot-blue" alt="Video" width="480" height="40"/>
   </a>
 </p> <hr> <br> <br>
