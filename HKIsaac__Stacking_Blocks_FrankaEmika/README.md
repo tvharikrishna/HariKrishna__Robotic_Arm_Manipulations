@@ -1,7 +1,3 @@
-<!------ Copyrights ------>
-<p align="right">© 𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻 𝗯𝘆 𝘁𝘃𝗵𝗮𝗿𝗶𝗸𝗿𝗶𝘀𝗵𝗻𝗮</p>
-<p align="right">5 𝘮𝘪𝘯𝘶𝘵𝘦 𝘳𝘦𝘢𝘥 📚 </p> <br>
-
 <!------ PROJECT TITLE ------>
 <p align="center">
     <img src="readme_data/project_title.png" alt="project title" width="1111"/>
@@ -14,12 +10,12 @@
 
 <p align="center"><h1>🎀 Essence of the Project</h1></p>
 <p align='justify'>
-This project focuses on developing a specialized algorithm for the HKBOT, which is equipped with an NVIDIA Jetson Nano and a 6-DOF robotic arm. The algorithm enhances 'pick and place' operations, dynamically adapting to different payload configurations and optimizing the spatial arrangement of blocks on the robot’s chassis. Integrated safety protocols ensure the robot operates in compliance with guidelines for mobile robots and autonomous guided vehicles.
+This project showcases the integration and control of the Franka Emika robot within NVIDIA Isaac Sim to automate the stacking of blocks. Utilizing sophisticated robotics control algorithms, this simulation demonstrates how precise robotic manipulation is achieved in complex tasks such as stacking, providing a platform for further research and development in automated robotics systems.
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7130040549587243008?utm_source=share&utm_medium=member_desktop">
-    <img src="https://img.shields.io/badge/My Project Video-HKBOT Block Manipulation-blue" alt="Video" width="450" height="40"/>
+  <a href="https://youtu.be/vDkAANr7kvA">
+    <img src="https://img.shields.io/badge/My Project Video-Stacking Blocks w/ Franka Robot-blue" alt="Video" width="480" height="40"/>
   </a>
 </p> <hr> <br> <br>
 
@@ -30,7 +26,7 @@ This project focuses on developing a specialized algorithm for the HKBOT, which 
 
 <p align="center"><h1>🎯 Project Vision</h1></p>
 <p style="text-align: justify;">
-The aim of this project is to advance block manipulation by integrating a specialized non-autonomous algorithm with a 6-DOF robotic arm, serving as a beginner project in robotic arm and block manipulation. This initiative seeks to enhance operational efficiency and robotic mobility through the use of mecanum wheels for precise omnidirectional movement, coupled with dynamic adaptation to various payload configurations. Safety protocols are implemented to ensure compliance with the highest standards, promoting secure and efficient operations in autonomous mobile robotics.
+The vision behind this project is to demonstrate the capabilities of robotic systems in performing precise and delicate tasks such as stacking, which require high accuracy and stability. Block stacking is fundamental to various applications, including automated warehousing, assembly lines in manufacturing, and construction robotics. By simulating these tasks within NVIDIA Isaac Sim, this project aims to provide insights into the challenges and solutions in robotics control, paving the way for implementing these techniques in real-world applications, where such skills can significantly enhance efficiency and precision.
 </p> <hr> <br> <br>
 
 <!------ HOW ------>
@@ -41,39 +37,80 @@ The aim of this project is to advance block manipulation by integrating a specia
 <p align="center"><h1>🪓 Project Implementation</h1></p>
 <p><h2>💠 Software Design & Tools </h2></p>
 <p align='justify'>
-This project employs a robust suite of tools to support the development and operation of HKBOT. Ubuntu and Linux provide a stable and versatile operating system environment. C++ is utilized for scripting, enhancing the project's efficiency and scalability. Communication and remote control functionalities are handled through SSH, PuTTY, and VNC Viewer, ensuring secure and flexible remote access. ROS and RViz are essential for managing robotic operations and visualizations.
+The implementation leverages Ubuntu and Linux as the operating systems, with Python scripting within the NVIDIA Isaac Sim environment. The project utilizes advanced robotics simulation tools, including the precise control mechanisms provided by the Isaac Sim Pick and Place Controller, allowing for detailed manipulation and interaction with the simulated environment.
 </p>
-<p align='justify'>
-<img src="https://img.shields.io/badge/Ubuntu-E95420.svg?&style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/Linux-FCC624.svg?&style=flat-square&logo=linux&logoColor=black" alt="Linux" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/C++-00599C.svg?&style=flat-square&logo=cplusplus&logoColor=white" alt="C++" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/SSH-4D4D4D.svg?&style=flat-square&logo=windows-terminal&logoColor=white" alt="SSH" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/PuTTY-007ACC.svg?&style=flat-square&logo=windows-terminal&logoColor=white" alt="PuTTY" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/VNC%20Viewer-ED1C24.svg?&style=flat-square&logo=CodeSandbox&logoColor=white" alt="VNC Viewer" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/ROS-22314E.svg?&style=flat-square&logo=ros&logoColor=white" alt="ROS" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/RVIZ-000000.svg?&style=flat-square&logo=ros&logoColor=white" alt="RViz" style="height: 25px;"/> &nbsp;
-</p> <br>
 
-<p align="center"><h2>💠 Deployment and Testing</h2></p>
+<p>
+<img src="https://img.shields.io/badge/Ubuntu-E95420.svg?&style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu" style="height: 30px;"/> &nbsp;
+<img src="https://img.shields.io/badge/Linux-FCC624.svg?&style=flat-square&logo=linux&logoColor=black" alt="Linux" style="height: 30px;"/> &nbsp;
+<img src="https://img.shields.io/badge/Python-3776AB.svg?&style=flat-square&logo=python&logoColor=white" alt="Python" style="height: 30px;"/> &nbsp;
+<img src="https://img.shields.io/badge/VS%20Code-007ACC.svg?&style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" style="height: 30px;"/> &nbsp;
+<img src="https://img.shields.io/badge/NVIDIA%20Isaac%20SIM-76B900.svg?&style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Isaac SIM" style="height: 30px;"/> &nbsp;
+</p> <br> 
+
+<!------ Technical Terms ------>
+<p align="center"><h2>💠 Project Technical Terms & Concepts </h2></p>
+<p align="center"><h3>▸ What are Cobots?</h3></p>
 <p style="text-align: justify;">
-    
-<p align="center"><h2>▸ Manipulation Sequence Planning</h2></p>
-▸ I have designed the algorithm for the robotic arm in a way that is referred to as 'manipulation sequence' or 'manipulation planning' in robotics. When the robot's chassis already holds one or two blocks, it needs space to place an additional block. My developed algorithm directs the arm to push the existing blocks slightly backward, creating room for the new one. This process can repeat for any number of blocks, as demonstrated in the video. <br>
-
-<p align="center"><h2>▸ Implemented Safety Measures for Operating AMRs/AGVs</h2></p>
-As we all know, robots can pose a hazard if we enter their operational zone. To address safety concerns on sites and factories that use mobile robots and Autonomous Guided Vehicles (AGVs), I have programmed an algorithm to enhance safety communications. When the robot is performing a manipulation task, it emits a flashing red light. Conversely, when the robot is merely moving around, it emits a green light, signaling to humans that it is safe to approach. However, it is unsafe to approach when the robot flashes a red light. </p> <br>
-
-<p align="center"><h2>Red: Danger</h2></p>
-<p align="center">
-  <img src="readme_data/project_observation_1.png" alt="Project Observation 1" width="1111"/>
+Cobots, or collaborative robots, are designed to work alongside humans within a shared workspace. Unlike traditional industrial robots, cobots are built with advanced sensors and AI capabilities to safely interact with human operators, enhancing productivity and flexibility in tasks such as assembly and material handling.
 </p> <br>
 
-<p align="center"><h2>Green: Safe</h2></p>
+<p align="center"><h3>▸ What is Franka Emika Robot?</h3></p>
+<p style="text-align: justify;">
+The Franka Emika Robot is a highly adaptive and flexible collaborative robot (cobot) designed for a variety of automation tasks. Known for its precision and safety features, it's widely used in research and industrial applications to perform complex tasks such as assembly, testing, and delicate manipulations.
+</p> <br>
+
+<p align="center"><h3>▸ What is Pick and Place Controller in Isaac?</h3></p>
+<p style="text-align: justify;">
+In NVIDIA Isaac Sim, the Pick and Place Controller is a specialized module that enables robots to handle objects with precision. It integrates robotics kinematics and sensors to accurately control the picking and placing actions, essential for tasks requiring fine manipulation and spatial accuracy.
+</p> <br>
+
+<!------ Deployment and Testing ------>
+<p align="center"><h2>💠 Deployment and Testing</h2></p> <br>
+<p style="text-align: justify;">
+This phase involved rigorous testing in NVIDIA Isaac Sim, where the Franka Emika robot successfully demonstrated its capability to manipulate and stack blocks accurately. Below images showcase the successful manipulation and stacking of blocks, culminating in a final arrangement where all five blocks have been neatly stacked.
+</p>
 <p align="center">
-  <img src="readme_data/project_observation_2.png" alt="Project Observation 2" width="1111"/>
+    <img src="readme_data/project_obs1.png" alt="Deployment and Testing Images" width="1500"/>
+</p> <br>
+
+<p align="center">
+    <img src="readme_data/project_obs2.png" alt="Deployment and Testing Images" width="1500"/>
+</p> <br>
+
+<p align="center">
+    <img src="readme_data/project_obs3.png" alt="Deployment and Testing Images" width="1500"/>
+</p> <br>
+
+<p align="center">
+    <img src="readme_data/project_obs4.png" alt="Deployment and Testing Images" width="1500"/>
+</p> <br>
+
+<p align="center">
+    <img src="readme_data/project_obs5.png" alt="Deployment and Testing Images" width="1500"/>
+</p> <br> 
+
+<!------ Result and Analysis ------>
+<p align="center"><h2>💠 Result and Analysis </h2></p>
+<p style="text-align: justify;">
+The results were of high accuracy as demonstrated by the blocks being placed perfectly one upon another. The implemented counting mechanism ensures the robot maintains an accurate count of all blocks, and the precise control from the Pick and Place controller resulted in excellent manipulation accuracy, as displayed in the video and the images above.
+</p> <br>
+
+<!------ HOW TO USE MY CODE ------>
+<h2 align="left">💠 How to use my code?</h2>
+<p>The provided Python script leverages the entire block manipulation using the Franka robot within NVIDIA Isaac Sim, meaning that in order to use my code, a fully functional Nvidia Isaac Sim setup is necessary.</p>
+<ol>
+  <li>Ensure Nvidia Isaac Sim is installed along with all other necessary software and environment dependencies.</li>
+  <li>Place the Python script named <code>HK_FrankaRoboticArm_Isaac.py</code> in the root directory of Isaac Sim, specifically within the examples folder of the <code>Hello World Directory</code>.</li>
+  <li>After opening Isaac Sim, navigate to Isaac Examples, then Hello World.</li>
+  <li>Using Hot-reload, press Ctrl + S, then load the world and click the reset button to start the simulation.</li>  
+</ol>
+<p>If you're a beginner, follow this documentation along with my code: Documentation = <a href="https://docs.omniverse.nvidia.com/isaacsim/latest/core_api_tutorials/tutorial_core_adding_manipulator.html">Adding Manipulator Robots using Nvidia Isaac Sim</a></p>
+
+    
 </p> <hr> <br> <br>
 
-<!----- End Image ----->
+<!------ End Image ------>
 <p align="center">
-    <img src="readme_data/HKbot_endquote.png" alt="Alt text for your image" width="1500"/>
+    <img src="readme_data/hk_quote.png" alt="endquote" width="1500"/>
 </p>
