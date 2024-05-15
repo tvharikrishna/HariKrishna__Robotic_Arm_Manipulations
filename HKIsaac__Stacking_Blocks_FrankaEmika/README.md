@@ -1,7 +1,3 @@
-<!------ Copyrights ------>
-<p align="right">© 𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻 𝗯𝘆 𝘁𝘃𝗵𝗮𝗿𝗶𝗸𝗿𝗶𝘀𝗵𝗻𝗮</p>
-<p align="right">5 𝘮𝘪𝘯𝘶𝘵𝘦 𝘳𝘦𝘢𝘥 📚 </p> <br>
-
 <!------ PROJECT TITLE ------>
 <p align="center">
     <img src="readme_data/project_title.png" alt="project title" width="1111"/>
@@ -14,12 +10,12 @@
 
 <p align="center"><h1>🎀 Essence of the Project</h1></p>
 <p align='justify'>
-This project focuses on developing a specialized algorithm for the HKBOT, which is equipped with an NVIDIA Jetson Nano and a 6-DOF robotic arm. The algorithm enhances 'pick and place' operations, dynamically adapting to different payload configurations and optimizing the spatial arrangement of blocks on the robot’s chassis. Integrated safety protocols ensure the robot operates in compliance with guidelines for mobile robots and autonomous guided vehicles.
+This project showcases the integration and control of the Franka Emika robot within NVIDIA Isaac Sim to automate the stacking of blocks. Utilizing sophisticated robotics control algorithms, this simulation demonstrates how precise robotic manipulation is achieved in complex tasks such as stacking, providing a platform for further research and development in automated robotics systems.
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/feed/update/urn:li:activity:7130040549587243008?utm_source=share&utm_medium=member_desktop">
-    <img src="https://img.shields.io/badge/My Project Video-HKBOT Block Manipulation-blue" alt="Video" width="450" height="40"/>
+    <img src="https://img.shields.io/badge/My Project Video-Stacking Blocks w/ Franka Robot-blue" alt="Video" width="480" height="40"/>
   </a>
 </p> <hr> <br> <br>
 
@@ -30,7 +26,7 @@ This project focuses on developing a specialized algorithm for the HKBOT, which 
 
 <p align="center"><h1>🎯 Project Vision</h1></p>
 <p style="text-align: justify;">
-The aim of this project is to advance block manipulation by integrating a specialized non-autonomous algorithm with a 6-DOF robotic arm, serving as a beginner project in robotic arm and block manipulation. This initiative seeks to enhance operational efficiency and robotic mobility through the use of mecanum wheels for precise omnidirectional movement, coupled with dynamic adaptation to various payload configurations. Safety protocols are implemented to ensure compliance with the highest standards, promoting secure and efficient operations in autonomous mobile robotics.
+The vision behind this project is to demonstrate the capabilities of robotic systems in performing precise and delicate tasks such as stacking, which require high accuracy and stability. Block stacking is fundamental to various applications, including automated warehousing, assembly lines in manufacturing, and construction robotics. By simulating these tasks within NVIDIA Isaac Sim, this project aims to provide insights into the challenges and solutions in robotics control, paving the way for implementing these techniques in real-world applications, where such skills can significantly enhance efficiency and precision.
 </p> <hr> <br> <br>
 
 <!------ HOW ------>
@@ -41,18 +37,16 @@ The aim of this project is to advance block manipulation by integrating a specia
 <p align="center"><h1>🪓 Project Implementation</h1></p>
 <p><h2>💠 Software Design & Tools </h2></p>
 <p align='justify'>
-This project employs a robust suite of tools to support the development and operation of HKBOT. Ubuntu and Linux provide a stable and versatile operating system environment. C++ is utilized for scripting, enhancing the project's efficiency and scalability. Communication and remote control functionalities are handled through SSH, PuTTY, and VNC Viewer, ensuring secure and flexible remote access. ROS and RViz are essential for managing robotic operations and visualizations.
+The implementation leverages Ubuntu and Linux as the operating systems, with Python scripting within the NVIDIA Isaac Sim environment. The project utilizes advanced robotics simulation tools, including the precise control mechanisms provided by the Isaac Sim Pick and Place Controller, allowing for detailed manipulation and interaction with the simulated environment.
 </p>
-<p align='justify'>
-<img src="https://img.shields.io/badge/Ubuntu-E95420.svg?&style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/Linux-FCC624.svg?&style=flat-square&logo=linux&logoColor=black" alt="Linux" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/C++-00599C.svg?&style=flat-square&logo=cplusplus&logoColor=white" alt="C++" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/SSH-4D4D4D.svg?&style=flat-square&logo=windows-terminal&logoColor=white" alt="SSH" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/PuTTY-007ACC.svg?&style=flat-square&logo=windows-terminal&logoColor=white" alt="PuTTY" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/VNC%20Viewer-ED1C24.svg?&style=flat-square&logo=CodeSandbox&logoColor=white" alt="VNC Viewer" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/ROS-22314E.svg?&style=flat-square&logo=ros&logoColor=white" alt="ROS" style="height: 25px;"/> &nbsp;
-<img src="https://img.shields.io/badge/RVIZ-000000.svg?&style=flat-square&logo=ros&logoColor=white" alt="RViz" style="height: 25px;"/> &nbsp;
-</p> <br>
+
+<p>
+<img src="https://img.shields.io/badge/Ubuntu-E95420.svg?&style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu" style="height: 30px;"/> &nbsp;
+<img src="https://img.shields.io/badge/Linux-FCC624.svg?&style=flat-square&logo=linux&logoColor=black" alt="Linux" style="height: 30px;"/> &nbsp;
+<img src="https://img.shields.io/badge/Python-3776AB.svg?&style=flat-square&logo=python&logoColor=white" alt="Python" style="height: 30px;"/> &nbsp;
+<img src="https://img.shields.io/badge/VS%20Code-007ACC.svg?&style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" style="height: 30px;"/> &nbsp;
+<img src="https://img.shields.io/badge/NVIDIA%20Isaac%20SIM-76B900.svg?&style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Isaac SIM" style="height: 30px;"/> &nbsp;
+</p> <br> 
 
 <p align="center"><h2>💠 Deployment and Testing</h2></p>
 <p style="text-align: justify;">
