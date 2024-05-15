@@ -48,26 +48,69 @@ The implementation leverages Ubuntu and Linux as the operating systems, with Pyt
 <img src="https://img.shields.io/badge/NVIDIA%20Isaac%20SIM-76B900.svg?&style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Isaac SIM" style="height: 30px;"/> &nbsp;
 </p> <br> 
 
-<p align="center"><h2>💠 Deployment and Testing</h2></p>
+<!------ Technical Terms ------>
+<p align="center"><h2>💠 Project Technical Terms & Concepts </h2></p>
+<p align="center"><h3>▸ What are Cobots?</h3></p>
 <p style="text-align: justify;">
-    
-<p align="center"><h2>▸ Manipulation Sequence Planning</h2></p>
-▸ I have designed the algorithm for the robotic arm in a way that is referred to as 'manipulation sequence' or 'manipulation planning' in robotics. When the robot's chassis already holds one or two blocks, it needs space to place an additional block. My developed algorithm directs the arm to push the existing blocks slightly backward, creating room for the new one. This process can repeat for any number of blocks, as demonstrated in the video. <br>
-
-<p align="center"><h2>▸ Implemented Safety Measures for Operating AMRs/AGVs</h2></p>
-As we all know, robots can pose a hazard if we enter their operational zone. To address safety concerns on sites and factories that use mobile robots and Autonomous Guided Vehicles (AGVs), I have programmed an algorithm to enhance safety communications. When the robot is performing a manipulation task, it emits a flashing red light. Conversely, when the robot is merely moving around, it emits a green light, signaling to humans that it is safe to approach. However, it is unsafe to approach when the robot flashes a red light. </p> <br>
-
-<p align="center"><h2>Red: Danger</h2></p>
-<p align="center">
-  <img src="readme_data/project_observation_1.png" alt="Project Observation 1" width="1111"/>
+Cobots, or collaborative robots, are designed to work alongside humans within a shared workspace. Unlike traditional industrial robots, cobots are built with advanced sensors and AI capabilities to safely interact with human operators, enhancing productivity and flexibility in tasks such as assembly and material handling.
 </p> <br>
 
-<p align="center"><h2>Green: Safe</h2></p>
+<p align="center"><h3>▸ What is Franka Emika Robot?</h3></p>
+<p style="text-align: justify;">
+The Franka Emika Robot is a highly adaptive and flexible collaborative robot (cobot) designed for a variety of automation tasks. Known for its precision and safety features, it's widely used in research and industrial applications to perform complex tasks such as assembly, testing, and delicate manipulations.
+</p> <br>
+
+<p align="center"><h3>▸ What is Pick and Place Controller in Isaac?</h3></p>
+<p style="text-align: justify;">
+In NVIDIA Isaac Sim, the Pick and Place Controller is a specialized module that enables robots to handle objects with precision. It integrates robotics kinematics and sensors to accurately control the picking and placing actions, essential for tasks requiring fine manipulation and spatial accuracy.
+</p> <br>
+
+<!------ Deployment and Testing ------>
+<p align="center"><h2>💠 Deployment and Testing</h2></p> <br>
+<p style="text-align: justify;">
+This phase involved rigorous testing in NVIDIA Isaac Sim, where the Franka Emika robot successfully demonstrated its capability to manipulate and stack blocks accurately. Below images showcase the successful manipulation and stacking of blocks, culminating in a final arrangement where all five blocks have been neatly stacked.
+</p>
 <p align="center">
-  <img src="readme_data/project_observation_2.png" alt="Project Observation 2" width="1111"/>
+    <img src="readme_data/project_obs1.png" alt="Deployment and Testing Images" width="1500"/>
+</p> <br>
+
+<p align="center">
+    <img src="readme_data/project_obs2.png" alt="Deployment and Testing Images" width="1500"/>
+</p> <br>
+
+<p align="center">
+    <img src="readme_data/project_obs3.png" alt="Deployment and Testing Images" width="1500"/>
+</p> <br>
+
+<p align="center">
+    <img src="readme_data/project_obs4.png" alt="Deployment and Testing Images" width="1500"/>
+</p> <br>
+
+<p align="center">
+    <img src="readme_data/project_obs5.png" alt="Deployment and Testing Images" width="1500"/>
+</p> <br> 
+
+<!------ Result and Analysis ------>
+<p align="center"><h2>💠 Result and Analysis </h2></p>
+<p style="text-align: justify;">
+The results were of high accuracy as demonstrated by the blocks being placed perfectly one upon another. The implemented counting mechanism ensures the robot maintains an accurate count of all blocks, and the precise control from the Pick and Place controller resulted in excellent manipulation accuracy, as displayed in the video and the images above.
+</p> <br>
+
+<!------ HOW TO USE MY CODE ------>
+<h2 align="left">💠 How to use my code?</h2>
+<p>The provided Python script leverages the entire block manipulation using the Franka robot within NVIDIA Isaac Sim, meaning that in order to use my code, a fully functional Nvidia Isaac Sim setup is necessary.</p>
+<ol>
+  <li>Ensure Nvidia Isaac Sim is installed along with all other necessary software and environment dependencies.</li>
+  <li>Place the Python script named <code>HK_FrankaRoboticArm_Isaac.py</code> in the root directory of Isaac Sim, specifically within the examples folder of the <code>Hello World Directory</code>.</li>
+  <li>After opening Isaac Sim, navigate to Isaac Examples, then Hello World.</li>
+  <li>Using Hot-reload, press Ctrl + S, then load the world and click the reset button to start the simulation.</li>  
+</ol>
+<p>If you're a beginner, follow this documentation along with my code: Documentation = <a href="https://docs.omniverse.nvidia.com/isaacsim/latest/core_api_tutorials/tutorial_core_adding_manipulator.html">Adding Manipulator Robots using Nvidia Isaac Sim</a></p>
+
+    
 </p> <hr> <br> <br>
 
-<!----- End Image ----->
+<!------ End Image ------>
 <p align="center">
-    <img src="readme_data/HKbot_endquote.png" alt="Alt text for your image" width="1500"/>
+    <img src="readme_data/hk_quote.png" alt="endquote" width="1500"/>
 </p>
