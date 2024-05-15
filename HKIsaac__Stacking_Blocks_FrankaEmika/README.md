@@ -1,6 +1,6 @@
 <!------ PROJECT TITLE ------>
 <p align="center">
-    <img src="readme_data/project_title.png" alt="project title" width="1111"/>
+    <img src="readme_data/project__title.png" alt="project title" width="1111"/>
 </p> <br> <br>
 
 <!------ WHAT ------>
